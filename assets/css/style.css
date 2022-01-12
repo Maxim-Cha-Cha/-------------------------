@@ -1,37 +1,38 @@
-header{
-  background-image: url(https://traversymedia.com/downloads/assets/beachshowcase.jpg);
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-position: center center;
-    padding: 0px 20px;
-    background-size:cover;
-    background-position:center;
-    line-height: 65px;
+*{
+  box-sizing: border-box;
 }
 body{
   margin:0;
   color:#926239;
 }
-h1{
+.main-header{
+  background-image: url(https://traversymedia.com/downloads/assets/beachshowcase.jpg);
+  height: 100vh;
+  align-items: center;
+  text-align: center;
+  background-position: center center;
+  padding: 0px 20px;
+  background-size:cover;
+  background-position:center;
+  line-height: 65px;
+}
+.h1-header{
   font-size:80px;
   font-weight: bold;
-}
-p{
-  font-size:25px;
+  padding-top: 500px;
 }
 .text{
+  font-size:25px;
+}
+.main-text{
   font-size: 30px;
   padding-top: 10px;
 }
-button:hover{
+.main-button:hover{
   background-color: #926239;
   color: white;
 }
-button{
+.main-button{
   font-size:30px;
   text-decoration:none;
   color:#926239;
@@ -41,7 +42,7 @@ button{
   margin-top:20px;
   background-color: Transparent;
 }
-div{
+.main{
   line-height: 45px;
 }
 .article1{
@@ -58,11 +59,11 @@ section{
   display: flex;
   text-align: left;
 }
-.div1{
+.block1_and_3{
   padding: 20px;
   background: #926239;
   color: white;
 }
-.div2{
+.block2{
   padding: 20px;
 }
